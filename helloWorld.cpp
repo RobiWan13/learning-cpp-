@@ -1,9 +1,12 @@
 #include <iostream>
 
 int main(){
+    //Its important remember that variables must to be defined at the start of the function
+
     //My First Hello World on C++
     std::cout<<"Hello World! \n";
-    
+    //Its important remember that variables must to be defined at the start of the function
+
     //Variables
     //Ints
     int x=13;
@@ -30,6 +33,14 @@ int main(){
     //Strings
     std::string name="Roberto";
 
-    std::cout<<"Hola "<<name;
+    std::cout<<"Hola "<<name<<"\n";
+
+    //Const
+    const double PI = 3.14159;
+    double radio = 10;
+    double circunferencia = 2*PI*radio;
+    std::cout<<circunferencia<<"cm";
+
+    
     return 0;
 }
